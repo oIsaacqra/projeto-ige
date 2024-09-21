@@ -1,0 +1,228 @@
+.app-container {
+    max-width: 600px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    padding: 20px; /* Espaçamento interno do contêiner */
+    
+  }
+
+/* Estilo para o grupo de formulário */
+.form-group {
+    max-width: 400px; /* Largura máxima do grupo de formulário */
+    margin: 0 auto; /* Centraliza o grupo de formulário na página */
+    padding: 20px; /* Espaçamento interno do grupo de formulário */
+    border: 1px solid #ccc; /* Borda sólida com cor cinza */
+    border-radius: 8px; /* Borda arredondada */
+    background-color: #ccccccad;
+  }
+  
+  /* Estilo para os campos de entrada de texto */
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    width: 100%; /* Largura total do campo de entrada */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    padding: 10px; /* Espaçamento interno do campo */
+    border: 1px solid #ccc; /* Borda sólida com cor cinza */
+    border-radius: 4px; /* Borda arredondada */
+  }
+  
+  /* Estilo para o botão de envio */
+  .form-group .button {
+    width: 100%; /* Largura total do botão */
+    padding: 10px; /* Espaçamento interno do botão */
+    background-color: #000000; /* Cor de fundo azul */
+    color: #ffffff; /* Cor do texto branco */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+  }
+  
+  /* Estilo para o link de esqueceu a senha */
+  .form-group .forgot-password {
+    text-align: right; /* Alinha o texto à direita */
+  }
+  
+  /* Estilo para as mensagens de erro */
+  .form-group .error-message {
+    color: red; /* Cor do texto vermelho */
+  }
+
+
+/* Estilo para o link de esqueceu a senha */
+#app-container .forgot-password {
+  text-align: right; /* Alinha o texto à direita */
+}
+
+/*cadastro*/
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.form-image {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #808080d7;
+  padding: 1rem;
+}
+
+.form-image img {
+  width: 31rem;
+}
+
+.form {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 3rem;
+}
+
+.form-header {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+}
+
+.login-button button {
+  border: none;
+  background-color: #000000;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button button a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+}
+
+.login-button :hover{
+  background-color: #222222f1;
+}
+
+.form-header h1::after {
+  display: block;
+  width: 5rem;
+  height: 0.3rem;
+  background-color: #000000;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.logo img{
+  width: 100px;
+  height: 100px;
+  margin-left: 3rem;
+}
+
+.input-group {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+  width: 400px;
+}
+
+.input-box input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+}
+
+.input-box input:hover {
+  background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+  outline: 1px solid #000000;
+}
+
+.input-box label,
+.gender-title h6 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.input-box input::placeholder {
+  color: #000000be;
+}
+
+.gender-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.62rem;
+  padding: 0 .5rem;
+}
+
+.gender-input {
+  display: flex;
+  align-items: center;
+}
+
+.gender-input input {
+  margin-right: 0.35rem;
+}
+
+.gender-input label {
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.continue-button button {
+  width: 100%;
+  border: none;
+  background-color: #000000;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.continue-button button:hover {
+  background-color: #222222f1;
+}
+
+.continue-button button a {
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+.button{
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+h1{
+  color: #000000c0;
+}
+.login{
+  color: black;
+}
